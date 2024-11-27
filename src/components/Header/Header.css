@@ -1,0 +1,127 @@
+.HeaderHolder{
+    width: 100%;
+    height:9vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.2px solid black;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    z-index: 9999;
+    /* border-bottom: 0.2px solid black; */
+}
+
+.HeaderMain{
+    width: 70%;
+    height: 100%;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderLeft{
+    width: 29%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inP{
+    width: 81%;
+    height: 52%;
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.103);
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    /* background: #000; */
+}
+
+.HeaderRight{
+    width: 65%;
+    height: 100%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderRightLeft{
+    width: 73%;
+    height: 100%;
+    /* background: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.Img{
+    width: 20px;
+    height: 20px;
+
+}
+
+/* .ImgHolder{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: tomato;
+} */
+
+
+.MeArrowHolder{
+    width: 100%;
+    height: 23%;
+    /* background: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderRightRight{
+    width: 27%;
+    height: 100%;
+    /* background: #000; */
+    border-left: 0.2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeaderRightHold{
+    width: 60%;
+    height: 80%;
+    /* background: #000; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AHold{
+    text-align: center;
+    font-size: 14px;
+}
+
+.BusinessHold{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+}

@@ -1,0 +1,19 @@
+.MainHolder{
+    margin-top: 10vh;
+    width: 100%;
+    height: max-content;
+    background: whitesmoke;
+    /* background: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainIt{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    /* background: orangered; */
+    /* align-items: center; */
+}

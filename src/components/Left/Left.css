@@ -1,0 +1,378 @@
+.LeftHolder{
+    width: 25%;
+    /* height: 91vh; */
+    height: max-content;
+    /* background: wheat; */
+}
+
+.LeftTopHolder{
+    width: 100%;
+    height: 53vh;
+    /* background: khaki; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.LeftInner{
+    width: 90%;
+    height: 95%;
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 9px;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LeftInnerTop{
+    width: 100%;
+    height: 15%;
+    background: url(public/me.jpg);
+    background-size: cover;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.LeftRound{
+    width: 65px;
+    height: 65px;
+    background: url(public/me.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 19.5%;
+    top: 15%;
+}
+
+.DownInner{
+    width: 100%;
+    height: 75%;
+    /* background: tomato; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.DownInnerText{
+    width: 100%;
+    height: 12%;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.NameH1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.PHolder{
+    width: 100%;
+    height: 39%;
+    /* background: lawngreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PMain{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    width: 90%;
+    /* font-weight: bold; */
+}
+
+.AnalyticText{
+    width: 100%;
+    height: 22%;
+    background: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HoldProfile{
+    width: 90%;
+    height: 50%;
+    /* background: olivedrab; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12.5px;
+}
+
+.AnalyticHold{
+    width: 90%;
+    height: 50%;
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+}
+
+.AchieveGoals{
+    width: 90%;
+    height: 17%;
+    /* background: purple; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Achieve{
+    font-size: 10px;
+    color: grey;
+    /* width: 100%; */
+}
+
+.RetryPremium{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Retry{
+    font-size: 11px;
+    color: black;
+    /* font-weight: 700; */
+}
+
+.SavedItems{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+    border-top: 1px solid black;
+}
+
+.ItemsSaved{
+    width: 90%;
+    height: 100%;
+    /* background: maroon; */
+    display: flex;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    gap :10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* .ItemsSaved{
+    height: 100%;
+} */
+
+.LeftBottom{
+    width: 100%;
+    height: 75vh;
+    /* background: hotpink; */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+    padding-bottom: 9px;
+}
+
+.LeftBottomInner{
+    width: 90%;
+    height: 99%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.LeftBottomFirst{
+    width: 100%;
+    height: 34%;
+    /* background: rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LeftBottomFirstA{
+    width: 90%;
+    height: 21%;
+    /* background: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.LeftBottomH2{
+    font-size: 13px;
+}
+
+.LeftBottomFirstB{
+    width: 90%;
+    height: 79%;
+    /* background: maroon; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.2px;
+    /* font-style: oblique; */
+    font-weight: bold;
+    gap: 10px;
+}
+
+.LeftBottomFirstBOne{
+    display: flex;
+    gap: 2px;
+    /* font-weight: 700; */
+}
+
+/* .LeftBottomFirstBTwo{
+    display: flex;
+    gap: 6px;
+
+}
+
+.LeftBottomFirstBThird{
+    display: flex;
+}
+
+.LeftBottomFirstBFourth{
+    display: flex;
+}
+
+.LeftBottomFirstBFifth{
+    display: flex;
+} */
+
+.LeftBottomSecond{
+    width: 100%;
+    height: 29%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LeftBottomSecondTop{
+    width: 90%;
+    height: 25%;
+    /* background: aquamarine; */
+    display: flex;
+    align-items: center;
+}
+
+.LeftBottomSecondH2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.LeftBottomSecondBottom{
+    width: 90%;
+    height: 79%;
+    /* background: indigo; */
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.5px;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2px;
+    /* align-items: center; */
+}
+
+.LeftBottomSecondBottomInnerOne{
+    display: flex;
+    gap: 5px;
+    /* background: tomato; */
+}
+
+.LeftBottomShowMoreHold{
+    width: 70%;
+    height: 15%;
+    /* background: orchid; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.LeftBottomThird{
+    width: 100%;
+    height: 37%;
+    /* background: orangered; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.LeftBottomThirdOne{
+    width: 90%;
+    height: 17%;
+    /* background: mediumblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.LeftBottomThirdTWo{
+    width: 90%;
+    height: 17%;
+    /* background: skyblue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 12.5px;
+}
+
+.LeftBottomThirdThree{
+    width: 90%;
+    height: 45%;
+    /* background: purple; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.LeftBottomThirdThreeA{
+    display: flex;
+    gap: 10px;
+    font-size: 11px
+}
+
+.LeftBottomThirdFour{
+    width: 90%;
+    height: 23%;
+    /* background: navy; */
+    display: flex;
+    font-size: 14px;
+    /* justify-content: center; */
+}
+
+.LeftBottomThirdHold{
+    width: 69%;
+    height: 30%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+/* .LeftBottomThirdShowMore{
+
+} */
